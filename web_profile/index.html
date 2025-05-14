@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Mahasiswa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Tombol Toggle Menu -->
+    <div class="menu-toggle">
+        <img src="media/menu.svg" alt="Home Icon" class="icon">
+    </div>
+
+    <!-- Sidebar -->
+    <nav class="sidebar">
+        <div class="profile">
+            <img src="media/pp.jpg" alt="Foto Profil">
+            <h3>Muhammad Irfan Rafi</h3>
+            <p>Teknik Informatika</p>
+        </div>
+
+        <ul class="menu">
+            <li><a href="#beranda" class="active"><i class="fas fa-home"></i> Beranda</a></li>
+            <li><a href="#profil"><i class="fas fa-user"></i> Profil</a></li>
+            <li><a href="#pendidikan"><i class="fas fa-graduation-cap"></i> Pendidikan</a></li>
+            <li><a href="#kontak"><i class="fas fa-address-book"></i> Kontak</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="content">
+        <section id="beranda" class="page active">
+            <div class="hero">
+                <h1>Selamat datang di <span>Web profil saya</span></h1>
+                <p class="subtitle">Website yang menjelaskan secara singkat siapa saya(?)</p>
+                
+            </div>
+            
+            <div class="about-card">
+                <h2>Tentang Saya</h2>
+                <p>Perkenalkan nama saya Muhammad Irfan Rafi dari prodi informatika,disini saya tidak akan memberikan banyak informasi terkait diri saya,tetapi pada codingan saya akan mengetik lorem maka hasilnya akan seperti ini Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, beatae corporis, obcaecati consectetur at ipsum ratione blanditiis repellat praesentium excepturi eum in. Amet, obcaecati soluta qui consequuntur debitis eum nobis.</p>
+            </div>
+        </section>
+
+        <section id="profil" class="page">
+            <h1><img src="media/profile.svg" height="30ox" alt=""> Profil Saya</h1>
+            
+            <div class="profile-grid">
+                <div class="profile-card">
+                    <div class="icon-box">
+                        <img src="media/contact.svg" height="30ox" alt="">
+                    </div>
+                    <h3>Informasi Pribadi</h3>
+                    <ul>
+                        <li><strong>Nama:</strong> Muhammad Irfan Rafi</li>
+                        <li><strong>Tempat dan Tanggal lahir:</strong> Bantul, 21 Februari 2004</li>
+                        <li><strong>Umur:</strong> 21 tahun</li>
+                        <li><strong>Alamat:</strong> Kretek,Bantul,Yogyakarta</li>
+                    </ul>
+                </div>
+                
+                <div class="profile-card">
+                    <div class="icon-box">
+                        <img src="media/acd.svg" height="30ox" alt="">
+                    </div>
+                    <h3>Informasi Akademik</h3>
+                    <ul>
+                        <li><strong>Universitas:</strong> Universitas Ahmad Dahlan</li>
+                        <li><strong>Jurusan:</strong> Teknik Informatika</li>
+                        <li><strong>Fakultas:</strong> Teknologi Industri</li>
+                        <li><strong>Semester:</strong> 2</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="pendidikan" class="page">
+    <h1><i class="fas fa-graduation-cap"></i> Riwayat Pendidikan</h1>
+    
+    <div class="edu-timeline">
+        <div class="edu-item">
+            <div class="edu-year">2022 - Sekarang</div>
+            <div class="edu-content">
+                <h3>Universitas Ahmad Dahlan</h3>
+                <p>Teknik Informatika</p>
+                <p>IPK: ****</p>
+            </div>
+        </div>
+        
+        <div class="edu-item">
+            <div class="edu-year">2019 - 2022</div>
+            <div class="edu-content">
+                <h3>SMA Negeri 1 Kretek</h3>
+                <p>Jurusan IPA</p>
+                <p>Nilai UN: ****</p>
+            </div>
+        </div>
+
+        <div class="edu-item">
+            <div class="edu-year">2016 - 2019</div>
+            <div class="edu-content">
+                <h3>SMP Negeri 1 Kretek</h3>
+                <p>Nilai UN: ****</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <section id="kontak" class="page">
+            <h1><i class="fas fa-address-book"></i> Informasi Kontak</h1>
+            
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h3>Email</h3>
+                        <p>2200018452@webmail.uad.ac.id</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h3>Telepon</h3>
+                        <p>+62 882 3942 5067</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h3>Alamat</h3>
+                        <p>Kretek, Bantul, Yogyakarta</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
